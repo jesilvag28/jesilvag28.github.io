@@ -1,0 +1,30 @@
+body {
+    background: dodgerblue;
+  }
+  
+  h1, h2 {
+    color: navy;
+    font-size: 2em;
+    padding-top: 20px;
+    width: 100%;
+    font-family: Helvetica;
+    text-align: center;
+  }
+  
+  table {
+    border: 2px solid;
+  }
+  
+  thead {
+    font-family: Helvetica;
+    background-color: blue;
+  }
+  
+  td {
+    font-family: Helvetica;
+    border-top: 1px solid;
+  }
+  
+  .code{
+    background-color: white;
+  }
