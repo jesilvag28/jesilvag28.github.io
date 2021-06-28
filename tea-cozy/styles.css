@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navigation {
+    margin: 10px;
+}
+
+.navigation a {
+    color: seashell;
+    margin: 10px;
+    cursor: pointer;
+}
+.mission {
+    width: 100%;
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-position: top center;
+    background-size: cover;
+    line-height: 2rem;
+}
+
+.mission.statement {
+    background-color: black;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+}
+
+.featured-tea {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.statement {
+    line-height: 2.5rem;
+}
+
+.figure-container { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+figure img {
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.locations {
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.locations h2 {
+    justify-content: center;
+}
+
+.containers {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 40px;
+}
+
+.location-container {
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    padding-top: 20px;
+    line-height: 2.5rem;
+}
+
+.contact-information {
+    height: 200px;
+    line-height: 3rem;
+}
+
+.copyright {
+    text-align:left;
+    margin-left: 20px;
+}
