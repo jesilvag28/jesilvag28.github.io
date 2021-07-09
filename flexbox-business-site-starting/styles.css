@@ -1,0 +1,84 @@
+* {
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+.header {
+    font-size: 26px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.mission-statement {
+    background-image: url('./skyscrapers.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    font-size: 22px;
+}
+
+.statement {
+    background-color: white;
+    margin: auto;
+    width: 100%;
+}
+
+.portfolio{
+    font-size: 22px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image img {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+
+.team {
+    font-size: 22px;
+}
+
+.employees {
+    background-image: url('./blurred-road.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.employee {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.employee img {
+    width: 200px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.copyright {
+    padding-top: 20px;
+}
